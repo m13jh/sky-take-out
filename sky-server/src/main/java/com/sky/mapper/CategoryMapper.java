@@ -29,4 +29,6 @@ public interface CategoryMapper {
 
     @AutoFill(OperationType.UPDATE)
     void update(Category category);
+
+    List<Category> list(Integer type);
 }
