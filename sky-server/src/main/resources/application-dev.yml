@@ -11,3 +11,8 @@ sky:
     access-key-secret: 8iYRIuMS0ikeKhNWrrZAwSsrNEFyD4
     bucket-name: java-web-m13jh
     endpoint: oss-cn-beijing.aliyuncs.com
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 10
